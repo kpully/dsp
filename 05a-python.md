@@ -6,7 +6,7 @@ Read Allen Downey's [Think Python](http://www.greenteapress.com/thinkpython/) fo
 
 For quick and easy interactive practice with Python, many people enjoy [Codecademy's Python track](http://www.codecademy.com/en/tracks/python). There's also [Learn Python The Hard Way](http://learnpythonthehardway.org/book/) and [The Python Tutorial](https://docs.python.org/2/tutorial/).
 
----
+---edited
 
 ###Q1. Lists &amp; Tuples
 
