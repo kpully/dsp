@@ -30,7 +30,7 @@ I would use a list if I was ranking something; I would use a set if I wanted to 
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Lambda funcions are anonymous functions. Lambda functions cannot contain  more than one expression. An alternative to def (defining a new function). One benefit is that lambda makes the code cleaner since you can avoid making tons of one-line, one-off functions.
 
 ---
 
