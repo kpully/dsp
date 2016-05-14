@@ -18,7 +18,9 @@ def donuts(count):
     >>> donuts(99)
     'Number of donuts: many'
     """
-    raise NotImplementedError
+    if count > 10:
+        count = "many"
+    return "Number of donuts: %s" % count
 
 
 def both_ends(s):
@@ -37,8 +39,9 @@ def both_ends(s):
     >>> both_ends('xyz')
     'xyyz'
     """
-    raise NotImplementedError
-
+    while s.length > 2:
+        return s[0:2] & s[-1:-3]
+    return ""
 
 def fix_start(s):
     """
@@ -56,7 +59,8 @@ def fix_start(s):
     >>> fix_start('donut')
     'donut'
     """
-    raise NotImplementedError
+    char = s[0]
+    return char + s[1:].replace(char, '*')
 
 
 def mix_up(a, b):
@@ -74,7 +78,9 @@ def mix_up(a, b):
     >>> mix_up('pezzy', 'firm')
     'fizzy perm'
     """
-    raise NotImplementedError
+    a_new = b[0:2] + a[2:]
+    b_new = a[0:2] + b[2:]
+    return a_new + " " + b_new
 
 
 def verbing(s):
@@ -91,7 +97,14 @@ def verbing(s):
     >>> verbing('do')
     'do'
     """
-    raise NotImplementedError
+    if len(s) < 3:
+        return s
+    elif s[-3:] == 'ing':
+        s+='ly'
+        return s
+    else:
+        s+='ing'
+        return s
 
 
 def not_bad(s):
@@ -111,7 +124,16 @@ def not_bad(s):
     >>> not_bad("It's bad yet not")
     "It's bad yet not"
     """
-    raise NotImplementedError
+
+    if s.find('not') == -1:
+        return s
+    elif s.find('bad') == -1:
+        return s
+    elif s.find("not") < s.find('bad'):
+        s = s[:s.find('not')] + 'good' + s[s.find('bad') + 3:]
+        return s
+    else:
+        return s
 
 
 def front_back(a, b):
@@ -130,4 +152,20 @@ def front_back(a, b):
     >>> front_back('Kitten', 'Donut')
     'KitDontenut'
     """
-    raise NotImplementedError
+    if len(a)%2 == 0:
+        a_front = a[:len(a)/2]
+        a_back = a[len(a)/2:]
+    else:
+        a_front = a[:len(a)/2 + 1]
+        a_back = a[len(a)/2 + 1:]
+    if len(b)%2 == 0:
+        b_front = b[:len(b)/2]
+        b_back = b[len(b)/2:]
+    else:
+        b_front = b[:len(b)/2 + 1]
+        b_back = b[len(b)/2 + 1:]
+
+    return a_front + b_front + a_back + b_back
+    
+
+
