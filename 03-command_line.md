@@ -13,22 +13,30 @@ these in a couple of hours.
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
 
 ---
 
 ###Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`  
-`ls -a`  
-`ls -l`  
-`ls -lh`  
-`ls -lah`  
-`ls -t`  
-`ls -Glp`  
+`ls`  : lists the files in a directory
+`ls -a`  :
+`ls -l`  :
+`ls -lh`  :
+`ls -lah`  :
+`ls -t`  :
+`ls -Glp` : 
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
 
 ---
 
