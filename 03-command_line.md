@@ -19,9 +19,9 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 4.
 5.
 6.
-7.
 8.
 9.
+7.
 10.
 
 ---
@@ -29,9 +29,9 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 ###Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`  : lists the files in a directory
-`ls -a`  :
-`ls -l`  :
+`ls`  : lists the files in a directory (short listing)
+`ls -a`  : listing included hidden files
+`ls -l`  : long listing
 `ls -lh`  :
 `ls -lah`  :
 `ls -t`  :
