@@ -13,16 +13,16 @@ these in a couple of hours.
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-1.
-2.
-3.
-4.
-5.
-6.
-8.
-9.
-7.
-10.
+1. find [dir] -name [search_pattern]
+2. grep: stands for global regular expression print. It searches files for lines that match a pattern and returns the results. It is case sensitive.
+3. cd ../../
+4. .. (parent/enclosing directory)
+5. env: returns a list of environment variables
+6. touch: creates a new file inside the working directory. It takes in a file name as an argument and creates a new empty file in the current working directory.
+7. sed 's/he/she' file.txt: stands for "stream editor." It accepts standard input and modifies itbased on an expression expression before displaying it as output data. In the expression 's/he/she', s stands for "substitution," he is the search string, and she is the replacement string.
+8. rm -r directory_name: deletes a directory and all of its child directories
+9. mkdir directory_name: takes in a directory name as an argument and creates a new directory in the current working directory
+10. mv file.txt directory_name/: moves the file (first argument) into the destination directory (second argument)
 
 ---
 
@@ -30,12 +30,12 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 What do the following commands do:  
 `ls`  : lists the files in a directory (short listing)
-`ls -a`  : listing included hidden files
+`ls -a`  : lists all content in the working directory, including hidden files and directories
 `ls -l`  : long listing
-`ls -lh`  :
+`ls -lh`  : long listing with Human readable file sizes
 `ls -lah`  :
-`ls -t`  :
-`ls -Glp` : 
+`ls -t`  : listing sorted by modification time
+`ls -Glp` : inhibit display of group information, append indicator to entries
 
 
 ---
@@ -52,7 +52,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+The xargs command expects the input from stdin and executes over the input
 
  
 
