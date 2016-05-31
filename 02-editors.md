@@ -59,7 +59,7 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What terminal editor will you use? How did you make your decision?
 
-Nano. I wasn't prepared to learn emacs, and after talking to some people who had taken the course they recommended Nano.
+>> Nano. I wasn't prepared to learn emacs, and after talking to some people who had taken the course they recommended Nano.
 
 --
 
