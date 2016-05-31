@@ -46,13 +46,13 @@ cross-platform.
 
 Did you install Python 2 or 3? Why?  
 
-I installed python 2. It is compatible with all the libraries and packages that aren't yet available with Python 3. After doing some reasearch, most people seem to be using 2.7, and while learning I'd definitely like to use the most popular version since there will be more resources.
+>>I installed python 2. It is compatible with all the libraries and packages that aren't yet available with Python 3. After doing some reasearch, most people seem to be using 2.7, and while learning I'd definitely like to use the most popular version since there will be more resources.
 
 ###Q2. Which Python Version Installed   
 
 How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
-python --version in terminal
+>>python --version in terminal
 
  
 
