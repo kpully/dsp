@@ -56,7 +56,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-The xargs command expects the input from stdin and executes over the input
+>>The xargs command expects the input from stdin and executes over the input
 
  
 
