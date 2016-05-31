@@ -33,7 +33,7 @@ What do the following commands do:
 `ls -a`  : lists all content in the working directory, including hidden files and directories
 `ls -l`  : long listing
 `ls -lh`  : long listing with Human readable file sizes
-`ls -lah`  :
+`ls -lah`  : displays the long format listing, all files, 
 `ls -t`  : listing sorted by modification time
 `ls -Glp` : inhibit display of group information, append indicator to entries
 
@@ -44,7 +44,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+1. -p: displays directories with /
+2. -R: displays subdirectories as well
+3. -1: displays each entry on a line
+4. -d: displays only directories
+5. -m: displays the names as a comma-separated list
 
 ---
 
