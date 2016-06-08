@@ -12,7 +12,7 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
-Tuples are immutable. Lists can be changed. The elements in both a list and a tuple have a defined order.
+>>Tuples are immutable. Lists can be changed. The elements in both a list and a tuple have a defined order.
 Tuples will work as keys in dictionaries.
 
 ---
@@ -21,7 +21,7 @@ Tuples will work as keys in dictionaries.
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
-Sets do not keep order; lists do. Set items must be hashable; list items do not. As a result, searching a set is much quicker. Sets cannot contain duplicates; lists can. 
+>>Sets do not keep order; lists do. Set items must be hashable; list items do not. As a result, searching a set is much quicker. Sets cannot contain duplicates; lists can. 
 I would use a list if I was ranking something; I would use a set if I wanted to find something quickly. If I was ranking my favorite movies I'd put them in a list. If I need to search for a movies in a group of my favorite movies, I'd use a set.
 
 ---
@@ -30,7 +30,7 @@ I would use a list if I was ranking something; I would use a set if I wanted to 
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
-Lambda funcions are anonymous functions. Lambda functions cannot contain  more than one expression. An alternative to def (defining a new function). One benefit is that lambda makes the code cleaner since you can avoid making tons of one-line, one-off functions.
+>>Lambda funcions are anonymous functions. Lambda functions cannot contain  more than one expression. An alternative to def (defining a new function). One benefit is that lambda makes the code cleaner since you can avoid making tons of one-line, one-off functions.
 
 If you wanted to sort a list of numbers by absolute value, you might use a lambda.
 eg:
