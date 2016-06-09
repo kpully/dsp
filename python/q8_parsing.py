@@ -9,11 +9,12 @@
 
 import csv
 
-  def read_data(data):
-   # COMPLETE THIS FUNCTION
+def parsing:
+	data = football.csv
+    dir = '/Users/kpully/ds/metis/prework/dsp/python/'+ data
+    dta = pd.read_csv('/Users/kpully/ds/metis/prework/dsp/python/'+ data)
 
-  def get_min_score_difference(self, parsed_data):
-    # COMPLETE THIS FUNCTION
-
-  def get_team(self, index_value, parsed_data):
-    # COMPLETE THIS FUNCTION
+    for team in dta.Team:
+    dta['score_diff'] = abs(dta['Goals'] - dta['Goals Allowed'])
+    print min(abs(dta.score_diff))
+    dta.loc[dta['score_diff'] == abs(1)].Team

@@ -32,7 +32,7 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 >>Lambda funcions are anonymous functions. Lambda functions cannot contain  more than one expression. An alternative to def (defining a new function). One benefit is that lambda makes the code cleaner since you can avoid making tons of one-line, one-off functions.
 
-If you wanted to sort a list of numbers by absolute value, you might use a lambda.
+>>If you wanted to sort a list of numbers by absolute value, you might use a lambda.
 eg:
 nums = [3, -4, 2, 1, -6]
 Without lambda, you might create an absolute value function using def absvalue, and then we'd use key=absvalue.
@@ -45,7 +45,7 @@ sorted([3, -4, 2, 1, -6], key=lambda num: num.abs())
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
-List comprehensions are a shortcut for for loops.
+>>List comprehensions are a shortcut for for loops.
 
 ---
 
@@ -60,7 +60,7 @@ date_start = '01-02-2013'
 date_stop = '07-28-2015'
 ```
 
-937 days
+>>937 days
 
 b.  
 ```
@@ -76,7 +76,7 @@ date_start = '15-Jan-1994'
 date_stop = '14-Jul-2015'  
 ```
 
-7850 days
+>>7850 days
 
 Place code in this file: [q5_datetime.py](python/q5_datetime.py)
 
