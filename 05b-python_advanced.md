@@ -19,7 +19,7 @@ This data is available in this file:  [faculty.csv](python/faculty.csv)
 
 ####Q1. Find how many different degrees there are, and their frequencies: Ex:  PhD, ScD, MD, MPH, BSEd, MS, JD, etc.
 
-There are 8 different degrees.
+>>There are 8 different degrees.
 PhDs: 31
 MDs: 1
 MAs: 1
@@ -32,14 +32,14 @@ MSs: 2
 
 ####Q2. Find how many different titles there are, and their frequencies:  Ex:  Assistant Professor, Professor
 
-There are 3 different titles.
+>>There are 3 different titles.
 Assistant Professor: 12
 Associate Professor: 12
 Professor: 13
 
 
 ####Q3. Search for email addresses and put them in a list.  Print the list of email addresses.
-
+>>
 0     bellamys@mail.med.upenn.edu
 1                warren@upenn.edu
 2               bryanma@upenn.edu
@@ -81,7 +81,7 @@ Professor: 13
 
 ####Q4. Find how many different email domains there are (Ex:  mail.med.upenn.edu, upenn.edu, email.chop.edu, etc.).  Print the list of unique email domains.
 
-There are 4 different email domains:
+>>There are 4 different email domains:
 {'@cceb.med.upenn.edu', '@email.chop.edu', '@mail.med.upenn.edu', '@upenn.edu'}
 
 Place your code in this file: [advanced_python_regex.py](python/advanced_python_regex.py)
