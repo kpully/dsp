@@ -121,23 +121,33 @@ faculty_dict = { 'Ellenberg': [\
             }
 ```
 Print the first 3 key and value pairs of the dictionary:
-
->> REPLACE THIS WITH YOUR RESPONSE
+>>>
+{'Bellamy': [' Sc.D.', 'Assistant Professor ', 'bellamys@mail.med.upenn.edu'],
+ 'Bilker': ['Ph.D.', 'Assistant Professor ', 'warren@upenn.edu'],
+ 'Bryan': [' PhD', 'Assistant Professor ', 'bryanma@upenn.edu'],
 
 ####Q7.  The previous dictionary does not have the best design for keys.  Create a new dictionary with keys as:
 
 ```
-professor_dict = {('Susan', 'Ellenberg'): ['Ph.D.', 'Professor', 'sellenbe@upenn.edu'],\
-                ('Jonas', 'Ellenberg'): ['Ph.D.', 'Professor', 'jellenbe@mail.med.upenn.edu'],\
-                ('Yimei', 'Li'): ['Ph.D.', 'Assistant Professor', 'liy3@email.chop.edu'],\
-                ('Mingyao','Li'): ['Ph.D.', 'Associate Professor', 'mingyao@mail.med.upenn.edu'],\
-                ('Hongzhe','Li'): ['Ph.D.', 'Professor', 'hongzhe@upenn.edu']
-            }
+>>>
+{'Bellamy': [[' Sc.D.', 'Assistant Professor', 'bellamys@mail.med.upenn.edu']],
+ 'Bilker': [['Ph.D.', 'Assistant Professor', 'warren@upenn.edu']],
+ 'Bryan': [[' PhD', 'Assistant Professor', 'bryanma@upenn.edu']],
 ```
 
 Print the first 3 key and value pairs of the dictionary:
 
->> REPLACE THIS WITH YOUR RESPONSE
+>>
+{('A.',
+  'Localio'): [[' JD MA MPH MS PhD',
+   'Assistant Professor',
+   'rlocalio@upenn.edu']],
+ ('Alisa',
+  'Stephens'): [[' Ph.D.',
+   'Assistant Professor',
+   'alisaste@mail.med.upenn.edu']],
+ ('Andrea',
+  'Troxel'): [[' ScD', 'Assistant Professor', 'atroxel@mail.med.upenn.edu']],
 
 ####Q8.  It looks like the current dictionary is printing by first name.  Sort by last name and print the first 3 key and value pairs.  
 
