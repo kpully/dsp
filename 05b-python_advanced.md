@@ -151,7 +151,13 @@ Print the first 3 key and value pairs of the dictionary:
 
 ####Q8.  It looks like the current dictionary is printing by first name.  Sort by last name and print the first 3 key and value pairs.  
 
->> REPLACE THIS WITH YOUR RESPONSE
+>>
+{('Bellamy',
+  'Scarlett'): [[' Sc.D.',
+   'Assistant Professor',
+   'bellamys@mail.med.upenn.edu']],
+ ('Bilker', 'Warren'): [['Ph.D.', 'Assistant Professor', 'warren@upenn.edu']],
+ ('Bryan', 'Matthew'): [[' PhD', 'Assistant Professor', 'bryanma@upenn.edu']],
 
 Place your code in this file: [advanced_python_dict.py](python/advanced_python_dict.py)
 
