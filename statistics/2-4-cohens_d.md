@@ -1,6 +1,6 @@
 [Think Stats Chapter 2 Exercise 4](http://greenteapress.com/thinkstats2/html/thinkstats2003.html#toc24) (Cohen's d)
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>>
 import pandas as pd
 import numpy as np
 import math
@@ -8,7 +8,6 @@ import thinkplot
 
 import nsfg
 df = nsfg.ReadFemPreg()
-#df.head()
 
 def CohenEffectSize(group1, group2):
     diff = group1.mean() - group2.mean()
