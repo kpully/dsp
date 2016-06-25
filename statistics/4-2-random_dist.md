@@ -6,11 +6,9 @@ import pandas as pd
 import numpy as np  
 import math  
 import thinkplot  
-
 pmf = thinkstats2.Pmf(t)  
 thinkplot.Pmf(pmf, linewidth=0.1)  
 thinkplot.Show()  
-
 cdf = thinkstats2.Cdf(t, label='totalwgt_lb')  
 thinkplot.Cdf(cdf)  
 thinkplot.Show(xlabel='percentile rank', ylabel='CDF')  

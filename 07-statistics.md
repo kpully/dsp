@@ -80,7 +80,7 @@ How do frequentist and Bayesian statistics compare?
 >>
 Bayesian statistics takes prior information into account.
 Frequentists believe that parameters are fixed, while Bayesians believe that data is fixed. For frequentists, probabilities are fundamentally related to frequencies of events.
-
+  
 ---
 
 ###Optional Exercises
